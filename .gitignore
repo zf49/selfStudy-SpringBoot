@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+springboot-01-helloworld/src/main/resources/static/
+springboot-01-helloworld/src/main/resources/templates/
+.idea
+springboot-02-config/.gitignore
+springboot-02-config/.mvn/
+springboot-02-config/mvnw
+springboot-02-config/mvnw.cmd
+springboot-02-config/pom.xml
+

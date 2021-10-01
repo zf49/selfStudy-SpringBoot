@@ -1,5 +1,7 @@
 ## SpringBoot
 
+## https://dwz.cn/P1N121RT
+
 核心：
 
 1. 配置编写 yaml
@@ -97,3 +99,237 @@ protected List<String> getCandidateConfigurations(AnnotationMetadata metadata, A
 }
 ```
 
+![image-20210918181746164](/Users/chris/Documents/image-20210918181746164.png)
+
+![image-20210918182050150](/Users/chris/Documents/image-20210918182050150.png)
+
+----
+
+.yaml
+
+```yaml
+#普通 key value
+name: Chris
+
+#对象：
+student1:
+  name: Chris
+  age: 25
+
+#行内写法
+student2: {name:Zhifang,age20}
+
+
+#数组
+pets1:
+  - cat
+  - dog
+  - pig
+
+pets2: [cat,dog,pig]
+```
+
+Yaml 可以给实体类赋值
+
+```yaml
+person:
+  name: wangzhifang
+  age: 3
+  happy: false
+  birth: 2019/02/02
+  maps: {k1: v1,k2: v2}
+  lists:
+    - code
+    - music
+    - firl
+  dog:
+    name: 旺财
+    age: 2
+```
+
+
+
+```java
+  @Component
+
+//  @ConfigurationProperties(prefix="person")
+//yaml 赋值
+
+@PropertySource(value = "classpath:wangzhifang.properties")
+ // 配置文件赋值
+public class Person {
+
+     @Value("${name}")
+    private String name;
+    private Integer age;
+    private Boolean happy;
+    private Date birth;
+    private Map<String,Object> maps;
+    private List<Object> lists;
+    private Dog dog;
+```
+
+松散绑定：
+
+last-name和lastName一个意思
+
+
+
+JSR303校验：
+
+```java
+/@PropertySource(value = "classpath:wangzhifang.properties")
+  @Validated //数据校验
+public class Person {
+
+     @Email(message = "邮箱错误")
+    private String name;
+    private Integer age;
+    private Boolean happy;
+    private Date birth;
+```
+
+```java
+ default message [邮箱错误]; origin class path resource [application.yaml] - 26:9
+```
+
+yml文件优先级：
+
+项目目录下的config
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7IPEXZtUAUBhnSZvUmrPzbDUoiazZ6ehegLG4doZK0uSJHribIqwVKiaNibSaYZSgjZf4kGzhLdGrkzzw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+
+
+```
+优先级1：项目路径下的config文件夹配置文件
+优先级2：项目路径下配置文件
+优先级3：资源路径下的config文件夹配置文件
+优先级4：资源路径下配置文件
+```
+
+spring的多环境配置：
+
+```properties
+# spring的多环境配置,可以选择激活哪个配置环境
+spring.profiles.active=dev
+```
+
+
+
+------
+
+## 配置文件到底写什么
+
+1、SpringBoot启动会加载大量的自动配置类
+
+2、我们看我们需要的功能有没有在SpringBoot默认写好的自动配置类当中；
+
+3、我们再来看这个自动配置类中到底配置了哪些组件；（只要我们要用的组件存在在其中，我们就不需要再手动配置了）
+
+4、给容器中自动配置类添加组件的时候，会从properties类中获取某些属性。我们只需要在配置文件中指定这些属性的值即可；
+
+**xxxxAutoConfigurartion：自动配置类；**给容器中添加组件
+
+**xxxxProperties:封装配置文件中相关属性；**
+
+----
+
+## Web 开发
+
+--
+
+静态资源：
+
+```java
+@Override
+public void addResourceHandlers(ResourceHandlerRegistry registry) {
+   if (!this.resourceProperties.isAddMappings()) {
+      logger.debug("Default resource handling disabled");
+      return;
+   }
+   addResourceHandler(registry, "/webjars/**", "classpath:/META-INF/resources/webjars/");
+   addResourceHandler(registry, this.mvcProperties.getStaticPathPattern(), (registration) -> {
+      registration.addResourceLocations(this.resourceProperties.getStaticLocations());
+      if (this.servletContext != null) {
+         ServletContextResource resource = new ServletContextResource(this.servletContext, SERVLET_LOCATION);
+         registration.addResourceLocations(resource);
+      }
+   });
+}
+```
+
+webjars
+
+相当于mvn依赖
+
+静态资源优先级
+
+```java
+private static final String[] CLASSPATH_RESOURCE_LOCATIONS = { "classpath:/META-INF/resources/",
+				"classpath:/resources/", "classpath:/static/", "classpath:/public/" };
+
+		/**
+		 * Locations of static resources. Defaults to classpath:[/META-INF/resources/,
+		 * /resources/, /static/, /public/].
+		 */
+		private String[] staticLocations = CLASSPATH_RESOURCE_LOCATIONS;
+
+```
+
+总结：
+
+springboot中，可以使用以下方式来处理静态资源
+
+1. webjars localhost：8080/webjars /**
+2. public, static, /**, resources   localhost:8080
+
+resources/, /static(默认)/, /public/].
+
+
+
+-----
+
+## 模版引擎
+
+thymleaf
+
+只要导入对应依赖就可以
+
+```xml
+<dependency>
+    <groupId>org.thymeleaf</groupId>
+    <artifactId>thymeleaf-spring5</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.thymeleaf.extras</groupId>
+    <artifactId>thymeleaf-extras-java8time</artifactId>
+</dependency>
+```
+
+将html放入template就行了
+
+```html
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--所有h5元素都能被thymleaf接管-->
+
+   <h1 th:text="${msg}"></h1>
+
+<div th:text="${msg}"></div>
+<div th:utext="${msg}"></div>
+
+   <hr>
+
+遍历：数组
+<h3 th:each="user:${users}" th:text="${user}"></h3>
+
+</body>
+</html>
+```

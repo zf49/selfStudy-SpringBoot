@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07e9d746-dad9-461b-8f95-cc2df2e6b697" name="Default Changelist" comment="" />
+    <list default="true" id="07e9d746-dad9-461b-8f95-cc2df2e6b697" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-02-config/src/main/java/com/zf/pojo/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-02-config/src/main/java/com/zf/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/java/com/zf/Springboot03WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/java/com/zf/config/MyMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/java/com/zf/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/java/com/zf/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/resources/public/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/resources/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-web/src/test/java/com/zf/Springboot03WebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/ZfApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/pojo/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/signIn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/test/java/springboot04com/zf/ZfApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +42,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -22,11 +58,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1xzXHrp7mbdz75ca3w5OllHp3eE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -34,10 +75,60 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/springboot-02-config/pom.xml&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/springboot-04-com/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/springboot-03-web/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$/springboot-03-web/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/springboot-03-web/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZfApplication">
+    <configuration name="Springboot02ConfigApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-02-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zf" />
+      <option name="MAIN_CLASS_NAME" value="com.zf.Springboot02ConfigApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="static in springboot-03-web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-03-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="static" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring02ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-02-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.spring02config.Spring02ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springboot01HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-01-helloworld" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.Springboot01HelloworldApplication" />
@@ -45,6 +136,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot02ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-02-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.Springboot02ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot03WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-03-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.Springboot03WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-04-com" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springboot04com.zf.ZfApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.static in springboot-03-web" />
+        <item itemvalue="JUnit.Springboot02ConfigApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -59,53 +177,91 @@
       <workItem from="1631358809579" duration="529000" />
       <workItem from="1631360762226" duration="41000" />
       <workItem from="1631779157924" duration="663000" />
-      <workItem from="1631956888744" duration="2774000" />
+      <workItem from="1631956888744" duration="4259000" />
+      <workItem from="1632231930095" duration="13000" />
+      <workItem from="1632837019077" duration="12803000" />
+      <workItem from="1633084286400" duration="5167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1119" height="255" key="GridCell.Tab.0.bottom" timestamp="1631959956920">
+    <state x="920" y="212" key="#Inspections" timestamp="1633012840352">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956920" />
-    <state width="1119" height="255" key="GridCell.Tab.0.center" timestamp="1631959956919">
+    <state x="920" y="212" key="#Inspections/0.25.1792.1038@0.25.1792.1038" timestamp="1633012840352" />
+    <state x="934" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631967296888">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956919" />
-    <state width="1119" height="255" key="GridCell.Tab.0.left" timestamp="1631959956918">
+    <state x="934" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1631967296888" />
+    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1633090305510">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956918" />
-    <state width="1119" height="255" key="GridCell.Tab.0.right" timestamp="1631959956919">
+    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1633090305510" />
+    <state x="899" y="409" width="640" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631967285357">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956919" />
-    <state width="1119" height="255" key="GridCell.Tab.1.bottom" timestamp="1631959956921">
+    <state x="899" y="409" width="640" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1792.1038@0.25.1792.1038" timestamp="1631967285357" />
+    <state x="881" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633092213953">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956921" />
-    <state width="1119" height="255" key="GridCell.Tab.1.center" timestamp="1631959956921">
+    <state x="881" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1038@0.25.1792.1038" timestamp="1633092213953" />
+    <state x="0" y="111" key="#resources_in_springboot-04-com" timestamp="1633090651785">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956921" />
-    <state width="1119" height="255" key="GridCell.Tab.1.left" timestamp="1631959956920">
+    <state x="0" y="111" key="#resources_in_springboot-04-com/0.25.1792.1038@0.25.1792.1038" timestamp="1633090651785" />
+    <state width="952" height="256" key="GridCell.Tab.0.bottom" timestamp="1633092298642">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956920" />
-    <state width="1119" height="255" key="GridCell.Tab.1.right" timestamp="1631959956921">
+    <state width="952" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298642" />
+    <state width="952" height="256" key="GridCell.Tab.0.center" timestamp="1633092298641">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1119" height="255" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1631959956921" />
-    <state x="489" y="111" key="SettingsEditor" timestamp="1631957320405">
+    <state width="952" height="256" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298641" />
+    <state width="952" height="256" key="GridCell.Tab.0.left" timestamp="1633092298641">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="489" y="111" key="SettingsEditor/0.25.1792.1038@0.25.1792.1038" timestamp="1631957320405" />
-    <state x="163" y="25" width="1611" height="1038" key="new project wizard" timestamp="1631957445840">
+    <state width="952" height="256" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298641" />
+    <state width="952" height="256" key="GridCell.Tab.0.right" timestamp="1633092298641">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="163" y="25" width="1611" height="1038" key="new project wizard/0.25.1792.1038@0.25.1792.1038" timestamp="1631957445840" />
+    <state width="952" height="256" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298641" />
+    <state width="952" height="256" key="GridCell.Tab.1.bottom" timestamp="1633092298643">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="952" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298643" />
+    <state width="952" height="256" key="GridCell.Tab.1.center" timestamp="1633092298642">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="952" height="256" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298642" />
+    <state width="952" height="256" key="GridCell.Tab.1.left" timestamp="1633092298642">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="952" height="256" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298642" />
+    <state width="952" height="256" key="GridCell.Tab.1.right" timestamp="1633092298643">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="952" height="256" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1633092298643" />
+    <state x="637" y="105" key="Maven.ArtifactSearchDialog" timestamp="1632980476769">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="637" y="105" key="Maven.ArtifactSearchDialog/0.25.1792.1038@0.25.1792.1038" timestamp="1632980476769" />
+    <state x="489" y="111" key="SettingsEditor" timestamp="1633084256028">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="489" y="111" key="SettingsEditor/0.25.1792.1038@0.25.1792.1038" timestamp="1633084256028" />
+    <state x="279" y="177" width="1024" height="791" key="new project wizard" timestamp="1633090237037">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="279" y="177" width="1024" height="791" key="new project wizard/0.25.1792.1038@0.25.1792.1038" timestamp="1633090237037" />
+    <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup" timestamp="1633088775048">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1633088775048" />
   </component>
 </project>

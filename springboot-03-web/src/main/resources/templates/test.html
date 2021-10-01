@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--所有h5元素都能被thymleaf接管-->
+
+<h1>hello</h1>
+
+
+<div th:text="${msg}"></div>
+<div th:utext="${msg}"></div>
+
+   <hr>
+
+
+<h3 th:each="user:${users}" th:text="${user}"></h3>
+
+
+
+
+
+
+</body>
+</html>
