@@ -53,8 +53,15 @@ public class EmployeeDao {
 
 
     //通过id查询
-    public Employee getEmployeeById(int id){
+    public Employee getEmployeeById(Integer id){
        return employees.get(id);
     }
+
+     // 通过id 删除员工
+    public void deleteEmployeeById(Integer id){
+        employees.remove(id);
+    }
+
+    
 
 }
