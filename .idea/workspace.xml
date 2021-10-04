@@ -2,41 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e9d746-dad9-461b-8f95-cc2df2e6b697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/config/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/emp/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-03-web/target/classes/com/zf/config/MyMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-web/target/classes/com/zf/config/MyMvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/config/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/src/main/java/springboot04com/zf/dao/EmployeeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/img/bg-masthead.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/img/bg-showcase-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/img/bg-showcase-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/img/bg-showcase-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/img/testimonials-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/img/testimonials-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/assets/img/testimonials-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/i18n/login_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/springboot04com/zf/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/target/classes/springboot04com/zf/config/MyConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/img/bg-masthead.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/img/bg-showcase-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/img/bg-showcase-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/img/bg-showcase-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/img/testimonials-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/img/testimonials-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/assets/img/testimonials-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/static/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/target/classes/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -126,6 +106,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="templates in springboot-04-com" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-04-com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="templates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="templates" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="templates.emp in springboot-04-com" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-04-com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="templates.emp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="templates.emp" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring02ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-02-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.spring02config.Spring02ConfigApplication" />
@@ -163,6 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.templates.emp in springboot-04-com" />
+        <item itemvalue="JUnit.templates in springboot-04-com" />
         <item itemvalue="JUnit.static in springboot-03-web" />
         <item itemvalue="JUnit.Springboot02ConfigApplicationTests.contextLoads" />
       </list>
@@ -187,7 +197,7 @@
       <workItem from="1631956888744" duration="4259000" />
       <workItem from="1632231930095" duration="13000" />
       <workItem from="1632837019077" duration="12803000" />
-      <workItem from="1633084286400" duration="10837000" />
+      <workItem from="1633084286400" duration="18159000" />
     </task>
     <servers />
   </component>
@@ -206,10 +216,10 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="934" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1631967296888" />
-    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1633188123130">
+    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1633347054373">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1633188123130" />
+    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1633347054373" />
     <state x="899" y="409" width="640" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631967285357">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
@@ -222,38 +232,46 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="0" y="111" key="#resources_in_springboot-04-com/0.25.1792.1038@0.25.1792.1038" timestamp="1633090651785" />
-    <state width="1740" height="256" key="GridCell.Tab.0.bottom" timestamp="1633190270849">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.0.bottom" timestamp="1633355069258">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270849" />
-    <state width="1740" height="256" key="GridCell.Tab.0.center" timestamp="1633190270848">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1633354077502" />
+    <state width="915" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069258" />
+    <state width="915" height="256" key="GridCell.Tab.0.center" timestamp="1633355069257">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270848" />
-    <state width="1740" height="256" key="GridCell.Tab.0.left" timestamp="1633190270848">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1633354077501" />
+    <state width="915" height="256" key="GridCell.Tab.0.center/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069257" />
+    <state width="915" height="256" key="GridCell.Tab.0.left" timestamp="1633355069257">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270848" />
-    <state width="1740" height="256" key="GridCell.Tab.0.right" timestamp="1633190270848">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1633354077501" />
+    <state width="915" height="256" key="GridCell.Tab.0.left/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069257" />
+    <state width="915" height="256" key="GridCell.Tab.0.right" timestamp="1633355069258">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270848" />
-    <state width="1740" height="256" key="GridCell.Tab.1.bottom" timestamp="1633190270850">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1633354077502" />
+    <state width="915" height="256" key="GridCell.Tab.0.right/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069258" />
+    <state width="915" height="256" key="GridCell.Tab.1.bottom" timestamp="1633355069253">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270850" />
-    <state width="1740" height="256" key="GridCell.Tab.1.center" timestamp="1633190270849">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1633354073953" />
+    <state width="915" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069253" />
+    <state width="915" height="256" key="GridCell.Tab.1.center" timestamp="1633355069252">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270849" />
-    <state width="1740" height="256" key="GridCell.Tab.1.left" timestamp="1633190270849">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1633354073953" />
+    <state width="915" height="256" key="GridCell.Tab.1.center/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069252" />
+    <state width="915" height="256" key="GridCell.Tab.1.left" timestamp="1633355069252">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270849" />
-    <state width="1740" height="256" key="GridCell.Tab.1.right" timestamp="1633190270849">
-      <screen x="0" y="25" width="1792" height="1038" />
+    <state width="915" height="256" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1633354073952" />
+    <state width="915" height="256" key="GridCell.Tab.1.left/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069252" />
+    <state width="915" height="256" key="GridCell.Tab.1.right" timestamp="1633355069253">
+      <screen x="0" y="25" width="1792" height="1044" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1633190270849" />
+    <state width="915" height="256" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1633354073953" />
+    <state width="915" height="256" key="GridCell.Tab.1.right/0.25.1792.1044@0.25.1792.1044" timestamp="1633355069253" />
     <state x="637" y="105" key="Maven.ArtifactSearchDialog" timestamp="1632980476769">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
