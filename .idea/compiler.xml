@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-02-config" />
-        <module name="springboot-01-helloworld" />
+        <module name="springboot-05-jdbc" />
         <module name="springboot-04-com" />
         <module name="springboot-03-web" />
+        <module name="springboot-02-config" />
+        <module name="springboot-01-helloworld" />
+        <module name="springboot-06-mybatis" />
         <module name="spring-02-config" />
       </profile>
     </annotationProcessing>
@@ -26,6 +28,8 @@
       <module name="springboot-02-config" options="-parameters" />
       <module name="springboot-03-web" options="-parameters" />
       <module name="springboot-04-com" options="-parameters" />
+      <module name="springboot-05-jdbc" options="-parameters" />
+      <module name="springboot-06-mybatis" options="-parameters" />
     </option>
   </component>
 </project>
