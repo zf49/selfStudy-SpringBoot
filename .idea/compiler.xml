@@ -10,6 +10,7 @@
         <module name="springboot-05-jdbc" />
         <module name="springboot-04-com" />
         <module name="springboot-03-web" />
+        <module name="springboot-07-security" />
         <module name="springboot-02-config" />
         <module name="springboot-01-helloworld" />
         <module name="springboot-06-mybatis" />
@@ -30,6 +31,7 @@
       <module name="springboot-04-com" options="-parameters" />
       <module name="springboot-05-jdbc" options="-parameters" />
       <module name="springboot-06-mybatis" options="-parameters" />
+      <module name="springboot-07-security" options="-parameters" />
     </option>
   </component>
 </project>

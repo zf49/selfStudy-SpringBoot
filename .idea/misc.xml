@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/springboot-04-com/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-05-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-security/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
