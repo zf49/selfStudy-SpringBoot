@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e9d746-dad9-461b-8f95-cc2df2e6b697" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/java/com/zf/congif/Secvurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/java/com/zf/controller/RouterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/static/css/qinstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/static/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/static/js/semantic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level1/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level1/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level1/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level2/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level2/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level2/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level3/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level3/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/level3/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/springboot04com/zf/config/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/target/classes/springboot04com/zf/config/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/springboot04com/zf/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/target/classes/springboot04com/zf/config/MyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-com/target/classes/templates/commen/commen.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-com/target/classes/templates/commen/commen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-jdbc/src/main/java/com/zf/springboot05jdbc/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-jdbc/src/main/java/com/zf/springboot05jdbc/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-jdbc/target/classes/com/zf/springboot05jdbc/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-jdbc/target/classes/com/zf/springboot05jdbc/config/TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-06-mybatis/target/classes/com/zf/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-06-mybatis/target/classes/com/zf/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-security/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-security/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-security/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-security/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-security/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-security/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-security/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -49,21 +78,37 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/springboot-02-config/pom.xml&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-07-security/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zf" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-07-security/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/l3" />
+      <recent name="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/l2" />
+      <recent name="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views/l1" />
+      <recent name="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-07-security/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/springboot-07-security/src/main/resources/templates/views" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/springboot-04-com/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/bootstrap-4.0.0-dist" />
-      <recent name="$PROJECT_DIR$/springboot-04-com/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/springboot-03-web/src/main/resources/public" />
-      <recent name="$PROJECT_DIR$/springboot-03-web/src/main/resources/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot06MybatisApplication">
+  <component name="RunManager" selected="Spring Boot.Springboot07SecurityApplication">
+    <configuration name="All in SpringBoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springboot05JdbcApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-05-jdbc" />
       <extension name="coverage">
@@ -96,22 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="static in springboot-03-web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-03-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="static.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="static" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="templates in springboot-04-com" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-04-com" />
+    <configuration name="templates in springboot-07-security" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-07-security" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="templates.*" />
@@ -196,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.templates in springboot-07-security" />
+        <item itemvalue="JUnit.All in SpringBoot" />
         <item itemvalue="JUnit.Springboot06MybatisApplicationTests.contextLoads" />
         <item itemvalue="JUnit.Springboot05JdbcApplicationTests.contextLoads" />
         <item itemvalue="JUnit.templates.emp in springboot-04-com" />
-        <item itemvalue="JUnit.templates in springboot-04-com" />
-        <item itemvalue="JUnit.static in springboot-03-web" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +256,7 @@
       <workItem from="1632837019077" duration="12803000" />
       <workItem from="1633084286400" duration="33593000" />
       <workItem from="1634025947509" duration="5983000" />
-      <workItem from="1634045861600" duration="3274000" />
+      <workItem from="1634045861600" duration="13792000" />
     </task>
     <servers />
   </component>
@@ -252,10 +283,10 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="934" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1631967296888" />
-    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1633347054373">
+    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1634112196980">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1633347054373" />
+    <state x="985" y="207" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1038@0.25.1792.1038" timestamp="1634112196980" />
     <state x="899" y="409" width="640" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631967285357">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
@@ -268,52 +299,52 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="0" y="111" key="#resources_in_springboot-04-com/0.25.1792.1038@0.25.1792.1038" timestamp="1633090651785" />
-    <state width="1150" height="256" key="GridCell.Tab.0.bottom" timestamp="1634025906043">
+    <state width="980" height="256" key="GridCell.Tab.0.bottom" timestamp="1634213634091">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1150" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906043" />
+    <state width="980" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634091" />
     <state width="930" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184213" />
     <state width="915" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="1150" height="256" key="GridCell.Tab.0.center" timestamp="1634025906043">
+    <state width="980" height="256" key="GridCell.Tab.0.center" timestamp="1634213634090">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1150" height="256" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906043" />
+    <state width="980" height="256" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634090" />
     <state width="930" height="256" key="GridCell.Tab.0.center/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184212" />
     <state width="915" height="256" key="GridCell.Tab.0.center/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547519" />
-    <state width="1150" height="256" key="GridCell.Tab.0.left" timestamp="1634025906043">
+    <state width="980" height="256" key="GridCell.Tab.0.left" timestamp="1634213634090">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1150" height="256" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906043" />
+    <state width="980" height="256" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634090" />
     <state width="930" height="256" key="GridCell.Tab.0.left/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184212" />
     <state width="915" height="256" key="GridCell.Tab.0.left/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547519" />
-    <state width="1150" height="256" key="GridCell.Tab.0.right" timestamp="1634025906043">
+    <state width="980" height="256" key="GridCell.Tab.0.right" timestamp="1634213634091">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="1150" height="256" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906043" />
+    <state width="980" height="256" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634091" />
     <state width="930" height="256" key="GridCell.Tab.0.right/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184213" />
     <state width="915" height="256" key="GridCell.Tab.0.right/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="881" height="256" key="GridCell.Tab.1.bottom" timestamp="1634025906040">
+    <state width="980" height="256" key="GridCell.Tab.1.bottom" timestamp="1634213634093">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="881" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906040" />
+    <state width="980" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634093" />
     <state width="930" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184214" />
     <state width="915" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547521" />
-    <state width="881" height="256" key="GridCell.Tab.1.center" timestamp="1634025906040">
+    <state width="980" height="256" key="GridCell.Tab.1.center" timestamp="1634213634092">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="881" height="256" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906040" />
+    <state width="980" height="256" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634092" />
     <state width="930" height="256" key="GridCell.Tab.1.center/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184214" />
     <state width="915" height="256" key="GridCell.Tab.1.center/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="881" height="256" key="GridCell.Tab.1.left" timestamp="1634025906040">
+    <state width="980" height="256" key="GridCell.Tab.1.left" timestamp="1634213634092">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="881" height="256" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906040" />
+    <state width="980" height="256" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634092" />
     <state width="930" height="256" key="GridCell.Tab.1.left/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184213" />
     <state width="915" height="256" key="GridCell.Tab.1.left/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="881" height="256" key="GridCell.Tab.1.right" timestamp="1634025906040">
+    <state width="980" height="256" key="GridCell.Tab.1.right" timestamp="1634213634093">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="881" height="256" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1634025906040" />
+    <state width="980" height="256" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1634213634093" />
     <state width="930" height="256" key="GridCell.Tab.1.right/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184214" />
     <state width="915" height="256" key="GridCell.Tab.1.right/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547521" />
     <state x="762" y="222" key="IDE.errors.dialog" timestamp="1634025743810">
@@ -328,14 +359,19 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="477" y="83" key="SettingsEditor/0.25.1792.1038@0.25.1792.1038" timestamp="1634107294795" />
-    <state x="399" y="224" width="1024" height="791" key="new project wizard" timestamp="1634106082109">
+    <state x="399" y="224" width="1024" height="791" key="new project wizard" timestamp="1634109231783">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="399" y="224" width="1024" height="791" key="new project wizard/0.25.1792.1038@0.25.1792.1038" timestamp="1634106082109" />
+    <state x="399" y="224" width="1024" height="791" key="new project wizard/0.25.1792.1038@0.25.1792.1038" timestamp="1634109231783" />
     <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup" timestamp="1633957217977">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1633957217977" />
     <state x="894" y="31" width="838" height="1037" key="search.everywhere.popup/0.25.1792.1043@0.25.1792.1043" timestamp="1633422671426" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringBoot$templates_in_springboot_07_security.ic" NAME="templates in springboot-07-security Coverage Results" MODIFIED="1634109544294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>templates.*</FILTER>
+    </SUITE>
   </component>
 </project>
