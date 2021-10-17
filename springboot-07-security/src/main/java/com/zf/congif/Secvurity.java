@@ -20,8 +20,9 @@ public class Secvurity extends WebSecurityConfigurerAdapter {
                 .antMatchers("/level2/**").hasRole("vip2")               .antMatchers("/level3/**").hasRole("vip3");
 
         //没有权限会默认跳到登陆页面,需要开启登录页面
-        http.formLogin();
-
+//        http.formLogin();
+         //定制
+        http.formLogin().loginPage("/toLogin");
 
         // 注销
         http.logout().logoutSuccessUrl("/");
