@@ -396,7 +396,43 @@ public class Springboot08TaskApplication {
 }
 ```
 
+--------
+
 定时任务-timer
+
+```java
+TaskScheduler 
+TaskExecutor
+
+@EnableScheduling // 开启定时功能的注解
+@Schduled //什么时候去执行
+  
+
+       // 在一个特定的时间去执行这个方法
+    // cron 表达式
+    // 秒 分 时 日 月 礼拜几
+    @Scheduled(cron = "50 24 23 * * ?")
+     public void hello(){
+         System.out.println("SchduledService被执行了");
+     }
+
+```
+
+
+
+
+
+
+
+
+
+
+
+-----------
+
+
+
+
 
 邮件发送
 
