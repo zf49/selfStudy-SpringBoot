@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/springboot-05-jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-07-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-task/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -15,15 +15,19 @@
         <module name="springboot-01-helloworld" />
         <module name="springboot-06-mybatis" />
         <module name="spring-02-config" />
+        <module name="springboot-08-task" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="01-helloshrio" target="1.8" />
       <module name="spring-02-config" target="1.8" />
       <module name="spring01-helloworld" target="1.5" />
+      <module name="springboot-08-shrio" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-helloshrio" options="-parameters" />
       <module name="spring-02-config" options="-parameters" />
       <module name="springboot-01-helloworld" options="-parameters" />
       <module name="springboot-02-config" options="-parameters" />
@@ -32,6 +36,8 @@
       <module name="springboot-05-jdbc" options="-parameters" />
       <module name="springboot-06-mybatis" options="-parameters" />
       <module name="springboot-07-security" options="-parameters" />
+      <module name="springboot-08-shrio" options="-parameters" />
+      <module name="springboot-08-task" options="-parameters" />
     </option>
   </component>
 </project>

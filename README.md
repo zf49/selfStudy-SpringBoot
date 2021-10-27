@@ -1,3 +1,5 @@
+
+
 ## SpringBoot
 
 ## https://dwz.cn/P1N121RT
@@ -333,3 +335,133 @@ thymleaf
 </body>
 </html>
 ```
+
+-----------
+
+## 任务
+
+异步任务
+
+
+
+```java
+public class AsyncService {
+
+          // 只需要告诉 spring 这是一个异步方法
+            @Async
+           public void hello(){
+               try {
+                   Thread.sleep(3000);
+               } catch (InterruptedException e) {
+                   e.printStackTrace();
+               }
+
+               System.out.println("数据正在处理");
+           }
+
+
+
+}
+```
+
+```java
+@RestController
+public class AsyncController {
+
+    @Autowired
+    AsyncService asyncService;
+
+    @RequestMapping("/hello")
+    public String hello(){
+
+        asyncService.hello(); //停止3秒
+
+        return "ok";
+
+    }
+
+
+}
+```
+
+```java
+@SpringBootApplication
+@EnableAsync     // main 方法开起async
+public class Springboot08TaskApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Springboot08TaskApplication.class, args);
+    }
+
+}
+```
+
+定时任务-timer
+
+邮件发送
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+```
+
+```propertities
+
+```
+
+配置类
+
+```xml
+spring.mail.username=164932606@qq.com
+spring.mail.password=tmegtevokvnbbghc
+spring.mail.host=smtp.qq.com
+
+# 开启加密认证
+spring.mail.properties.mail.smpt.enable=true
+```
+
+```java
+@Autowired
+JavaMailSenderImpl mailSender;
+
+
+@Test
+void contextLoads() {
+
+    // 一个简单的邮件发送
+    SimpleMailMessage mailMessage = new SimpleMailMessage();
+    mailMessage.setSubject("Chris 你好");     // 标题
+    mailMessage.setText("测试一下使用邮件发送");   //内容
+    mailMessage.setTo("zwan686@aucklanduni.ac.nz"); //发送给谁
+    mailMessage.setFrom("164932606@qq.com");     // 谁发送的
+    mailSender.send(mailMessage);
+
+}
+```
+
+```java
+@Test
+void contextLoads2() throws MessagingException {
+    // 在项目中放在controller 中
+    // 复杂邮件的邮件发送
+    MimeMessage mimeMessage = mailSender.createMimeMessage();
+    // 组装
+    MimeMessageHelper helper = new MimeMessageHelper(mimeMessage,true);
+
+    helper.setSubject("复杂邮件发送");
+    helper.setText("<p style='color:red'>复杂邮件发送测试</p>",true);   // 正常是无法发送html标签的，如果参数中加入true,则可支持html
+    // 附件
+
+    helper.addAttachment("1.jpg",new File("/Users/chris/Desktop/1.jpg"));
+    helper.addAttachment("2.jpg",new File("/Users/chris/Desktop/2.jpg"));
+
+    helper.setTo("zwan686@aucklanduni.ac.nz");
+    helper.setFrom("164932606@qq.com");
+
+    mailSender.send(mimeMessage);
+
+}
+```
+

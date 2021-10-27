@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e9d746-dad9-461b-8f95-cc2df2e6b697" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/springboot-07-security/src/main/java/com/zf/congif/Secvurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-security/src/main/java/com/zf/congif/Secvurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-task/src/main/java/com/zf/Springboot08TaskApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-task/src/main/java/com/zf/controller/AsyncController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-task/src/main/java/com/zf/service/AsyncService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-task/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-task/src/test/java/com/zf/Springboot08TaskApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,27 +82,11 @@
       <recent name="$PROJECT_DIR$/springboot-04-com/src/main/resources/static/bootstrap-4.0.0-dist" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot07SecurityApplication">
+  <component name="RunManager" selected="JUnit.Springboot08TaskApplicationTests.contextLoads2">
     <configuration name="All in SpringBoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBoot" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Springboot05JdbcApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-05-jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zf.springboot05jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zf.springboot05jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.zf.springboot05jdbc.Springboot05JdbcApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +107,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot08TaskApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-08-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zf" />
+      <option name="MAIN_CLASS_NAME" value="com.zf.Springboot08TaskApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot08TaskApplicationTests.contextLoads2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-08-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zf" />
+      <option name="MAIN_CLASS_NAME" value="com.zf.Springboot08TaskApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="templates in springboot-07-security" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-07-security" />
       <extension name="coverage">
@@ -126,16 +153,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="templates.emp in springboot-04-com" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-04-com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="templates.emp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="templates.emp" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01-helloshrio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,6 +209,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot08ShrioApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-08-shrio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.springboot08shrio.Springboot08ShrioApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot08ShrioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-08-shrio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.Springboot08ShrioApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot08TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-08-task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zf.Springboot08TaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-04-com" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="springboot04com.zf.ZfApplication" />
@@ -198,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Springboot08TaskApplicationTests.contextLoads2" />
+        <item itemvalue="JUnit.Springboot08TaskApplicationTests.contextLoads" />
         <item itemvalue="JUnit.templates in springboot-07-security" />
         <item itemvalue="JUnit.All in SpringBoot" />
         <item itemvalue="JUnit.Springboot06MybatisApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.Springboot05JdbcApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.templates.emp in springboot-04-com" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +268,9 @@
       <workItem from="1632837019077" duration="12803000" />
       <workItem from="1633084286400" duration="33593000" />
       <workItem from="1634025947509" duration="5983000" />
-      <workItem from="1634045861600" duration="14207000" />
+      <workItem from="1634045861600" duration="15957000" />
+      <workItem from="1634456509877" duration="6000" />
+      <workItem from="1635260639162" duration="3477000" />
     </task>
     <servers />
   </component>
@@ -270,52 +313,52 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="0" y="111" key="#resources_in_springboot-04-com/0.25.1792.1038@0.25.1792.1038" timestamp="1633090651785" />
-    <state width="980" height="256" key="GridCell.Tab.0.bottom" timestamp="1634214149150">
+    <state width="980" height="256" key="GridCell.Tab.0.bottom" timestamp="1635323588180">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149150" />
+    <state width="980" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1635323588180" />
     <state width="930" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184213" />
     <state width="915" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="980" height="256" key="GridCell.Tab.0.center" timestamp="1634214149147">
+    <state width="980" height="256" key="GridCell.Tab.0.center" timestamp="1635323588179">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149147" />
+    <state width="980" height="256" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1635323588179" />
     <state width="930" height="256" key="GridCell.Tab.0.center/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184212" />
     <state width="915" height="256" key="GridCell.Tab.0.center/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547519" />
-    <state width="980" height="256" key="GridCell.Tab.0.left" timestamp="1634214149146">
+    <state width="980" height="256" key="GridCell.Tab.0.left" timestamp="1635323588179">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149146" />
+    <state width="980" height="256" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1635323588179" />
     <state width="930" height="256" key="GridCell.Tab.0.left/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184212" />
     <state width="915" height="256" key="GridCell.Tab.0.left/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547519" />
-    <state width="980" height="256" key="GridCell.Tab.0.right" timestamp="1634214149148">
+    <state width="980" height="256" key="GridCell.Tab.0.right" timestamp="1635323588180">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149148" />
+    <state width="980" height="256" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1635323588180" />
     <state width="930" height="256" key="GridCell.Tab.0.right/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184213" />
     <state width="915" height="256" key="GridCell.Tab.0.right/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="980" height="256" key="GridCell.Tab.1.bottom" timestamp="1634214149159">
+    <state width="980" height="256" key="GridCell.Tab.1.bottom" timestamp="1635323540613">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149159" />
+    <state width="980" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1635323540613" />
     <state width="930" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184214" />
     <state width="915" height="256" key="GridCell.Tab.1.bottom/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547521" />
-    <state width="980" height="256" key="GridCell.Tab.1.center" timestamp="1634214149158">
+    <state width="980" height="256" key="GridCell.Tab.1.center" timestamp="1635323540612">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149158" />
+    <state width="980" height="256" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1635323540612" />
     <state width="930" height="256" key="GridCell.Tab.1.center/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184214" />
     <state width="915" height="256" key="GridCell.Tab.1.center/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="980" height="256" key="GridCell.Tab.1.left" timestamp="1634214149152">
+    <state width="980" height="256" key="GridCell.Tab.1.left" timestamp="1635323540612">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149152" />
+    <state width="980" height="256" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1635323540612" />
     <state width="930" height="256" key="GridCell.Tab.1.left/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184213" />
     <state width="915" height="256" key="GridCell.Tab.1.left/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547520" />
-    <state width="980" height="256" key="GridCell.Tab.1.right" timestamp="1634214149159">
+    <state width="980" height="256" key="GridCell.Tab.1.right" timestamp="1635323540613">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state width="980" height="256" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1634214149159" />
+    <state width="980" height="256" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1635323540613" />
     <state width="930" height="256" key="GridCell.Tab.1.right/0.25.1792.1043@0.25.1792.1043" timestamp="1633423184214" />
     <state width="915" height="256" key="GridCell.Tab.1.right/0.25.1792.1044@0.25.1792.1044" timestamp="1633357547521" />
     <state x="762" y="222" key="IDE.errors.dialog" timestamp="1634025743810">
@@ -330,14 +373,14 @@
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="477" y="83" key="SettingsEditor/0.25.1792.1038@0.25.1792.1038" timestamp="1634107294795" />
-    <state x="399" y="224" width="1024" height="791" key="new project wizard" timestamp="1634109231783">
+    <state x="520" y="212" width="1024" height="791" key="new project wizard" timestamp="1635260974825">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="399" y="224" width="1024" height="791" key="new project wizard/0.25.1792.1038@0.25.1792.1038" timestamp="1634109231783" />
-    <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup" timestamp="1633957217977">
+    <state x="520" y="212" width="1024" height="791" key="new project wizard/0.25.1792.1038@0.25.1792.1038" timestamp="1635260974825" />
+    <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup" timestamp="1635322356427">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1633957217977" />
+    <state x="894" y="31" width="838" height="1032" key="search.everywhere.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1635322356427" />
     <state x="894" y="31" width="838" height="1037" key="search.everywhere.popup/0.25.1792.1043@0.25.1792.1043" timestamp="1633422671426" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
